@@ -1,0 +1,66 @@
+*{
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+h2{
+    color: white;
+    background-color: red;
+    padding:10px 30px;
+}
+main img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+h3{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 48%;
+    border: 1px solid rgba(141, 141, 34, 0.804);
+}
+h3:hover{
+    transition: .3s;
+    color: white;
+    background-color: red;
+}
+.watch{
+    border-color: transparent;
+    background: rgba(255, 0, 0, 0.834);
+    color: white;
+    padding: 10px 100px;
+    margin: 30px 50px;
+    border-radius: 10px;
+}
+.watch:hover{
+    background-color: rgba(244, 65, 65, 0.927);
+    transition: .3s;
+}
+.watchlater{
+    border-radius: 10px;
+    padding: 10px 110px;
+    margin: 30px;
+    border: 1px solid red;
+    background-color: transparent;
+}
+.watchlater:hover{
+    transition: .3s;
+    color: white;
+    background-color: red;
+}
+footer{
+    padding: 30px 0px;
+    background-color: red;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+footer a:hover{
+    border-bottom: 1px solid white;
+    transition: .3s;
+}
