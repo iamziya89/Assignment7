@@ -3,3 +3,40 @@
 //     console.log(num+"*"+i+"="+num*i);
 // }
 
+// var a=10;
+// var b=20;
+// var sum=a+b;
+// console.log(sum);
+
+// function sum(){
+//     var a=10;
+// var b=20;
+// var total=a+b;
+// return total;
+// }
+// console.log(sum());
+
+//   Function
+
+// function sum(a,b){
+//     let sum=a+b;
+//     return sum;
+// }
+// console.log(sum(50,40));
+// console.log(sum())
+
+
+//    Function Expression
+// function sum(a,b){
+//     let sum=a+b;
+//     return sum;
+// }
+// var funExp=sum(90,110);
+// console.log(funExp);
+
+
+function sum(a,b){
+    return total=a+b;
+}
+let funcExp=sum(20,25);
+console.log(funcExp);
