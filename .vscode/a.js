@@ -43,13 +43,25 @@
 
 
 //   Anonymous function
-var funcExp=function(a,b){
-    return total=a+b;
+// var funcExp=function(a,b){
+//     return total=a+b;
+// }
+// console.log(funcExp(50,35));
+
+
+// console.log(sum(29,21));
+// function sum(a,b){
+//     return a+b;
+// }
+// console.log(sum(20,21));
+
+
+
+
+let sum=(a,b)=>{
+    return a+b;
 }
-console.log(funcExp(50,35));
-
-
-
+console.log(sum(29,21));
 
 
 
