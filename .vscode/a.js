@@ -89,11 +89,17 @@
 
 //filter()
 
-let arr2=[45,23,21,0,3,5];
-let a=arr2.filter((value)=>{
-    return value>10;
+// let arr2=[45,23,21,0,3,5];
+// let a=arr2.filter((value)=>{
+//     return value>10;
+// })
+// console.log(a);
+
+let arr3=[1,2,3,5,2,1]
+let x=arr3.reduce((h1,h2)=>{
+    return h1+h2;
 })
-console.log(a);
+console.log(x);
 
 
 
