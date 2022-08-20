@@ -81,8 +81,8 @@
 // })
 
 let a=[45,23,21]
-let x=a.map((value)=>{
-    console.log(value);
+let x=a.map((value,index,a)=>{
+    console.log(value,index,a);
     return value+1;
 })
 console.log(x);
