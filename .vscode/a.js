@@ -80,12 +80,20 @@
 // console.log(ele+" index: "+ind);
 // })
 
-let a=[45,23,21]
-let x=a.map((value,index,a)=>{
-    console.log(value,index,a);
-    return value+1;
+// let a=[45,23,21]
+// let x=a.map((value,index,a)=>{
+//     console.log(value,index,a);
+//     return value+index;
+// })
+// console.log(x);
+
+//filter()
+
+let arr2=[45,23,21,0,3,5];
+let a=arr2.filter((value)=>{
+    return value>10;
 })
-console.log(x);
+console.log(a);
 
 
 
