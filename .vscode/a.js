@@ -58,10 +58,34 @@
 
 
 
-let sum=(a,b)=>{
-    return a+b;
-}
-console.log(sum(29,21));
+// let sum=(a,b)=>{
+//     return a+b;
+// }
+// console.log(sum(29,21));
+
+ //   For in and For of loops
+
+ let arr=["Ramesh","bagadur","Sunny","Anish"];
+//  for(let i=0;i<arr.length;i++){
+//     console.log(arr[i]);
+//  }
+// for(let ele in arr){
+//     console.log(ele);
+//  }
+// for(let ele of arr){
+//     console.log(ele);
+//  }
+
+// arr.forEach(function(ele,ind,arr){
+// console.log(ele+" index: "+ind);
+// })
+
+let a=[45,23,21]
+let x=a.map((value)=>{
+    console.log(value);
+    return value+1;
+})
+console.log(x);
 
 
 
