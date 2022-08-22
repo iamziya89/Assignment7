@@ -108,12 +108,17 @@
 //     console.log(i);
 // }
 
-let sum=0;
-for(let i=0;i<=10;i++){
-    sum+=i;
-}
-console.log(sum);
+// let sum=0;
+// for(let i=0;i<=10;i++){
+//     sum+=i;
+// }
+// console.log(sum);
 
+var fact=1;
+for (let i=5;i>=1;i--){
+    fact=fact*i;
+}
+console.log(fact);
 
 
 
