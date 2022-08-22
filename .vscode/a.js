@@ -114,12 +114,24 @@
 // }
 // console.log(sum);
 
-var fact=1;
-for (let i=5;i>=1;i--){
-    fact=fact*i;
-}
-console.log(fact);
+// var fact=1;
+// for (let i=5;i>=1;i--){
+//     fact=fact*i;
+// }
+// console.log(fact);
 
+
+//    For in loops
+
+let Obj={
+    harry:90,
+    shubh:45,
+    anas:56,
+    sachin:40
+}
+for(let a in Obj){
+    console.log(a);
+}
 
 
 
