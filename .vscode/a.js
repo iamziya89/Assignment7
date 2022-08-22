@@ -95,11 +95,26 @@
 // })
 // console.log(a);
 
-let arr3=[1,2,3,5,2,1]
-let x=arr3.reduce((h1,h2)=>{
-    return h1+h2;
-})
-console.log(x);
+// let arr3=[1,2,3,5,2,1]
+// let x=arr3.reduce((h1,h2)=>{
+//     return h1+h2;
+// })
+// console.log(x);
+
+
+// let a=prompt("Hi whats yours age");
+
+for(let i=0;i<34;i++){
+    console.log(i);
+}
+
+
+
+
+
+
+
+
 
 
 
