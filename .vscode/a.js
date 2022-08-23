@@ -154,9 +154,9 @@ let obj={
 //     console.log(Object.keys(i));
 // }
 
-for(let keys in obj){
-    console.log(obj[keys]);
-}
+// for(let keys in obj){
+//     console.log(obj[keys]);
+// }
 
 
 
