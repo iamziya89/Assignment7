@@ -134,7 +134,12 @@
 // }
 
 
-
+const sum=()=>{
+    let a=34,b=36;
+    return (a+b);
+}
+// let y=sum();
+console.log(sum());
 
 
 
