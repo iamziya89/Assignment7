@@ -123,15 +123,17 @@
 
 //    For in loops
 
-let Obj={
-    harry:90,
-    shubh:45,
-    anas:56,
-    sachin:40
-}
-for(let a in Obj){
-    console.log(a);
-}
+// let Obj={
+//     harry:90,
+//     shubh:45,
+//     anas:56,
+//     sachin:40
+// }
+// for(let a in Obj){
+//     console.log(a);
+// }
+
+
 
 
 
