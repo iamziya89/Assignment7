@@ -134,12 +134,39 @@
 // }
 
 
-const sum=()=>{
-    let a=34,b=36;
-    return (a+b);
+// const sum=()=>{
+//     let a=34,b=36;
+//     return (a+b);
+// }
+// // let y=sum();
+// console.log(sum());
+
+//  Practice Set - 03
+let obj={
+    harry:98,
+    Rohan:96,
+    Ziya:56
 }
-// let y=sum();
-console.log(sum());
+// for(let i=0;i<Object.keys(obj).length;i++){
+//     console.log(obj[Object.keys(obj)[i]]);
+// }
+// for(let i=0;i<Object.keys(obj);i++){
+//     console.log(Object.keys(i));
+// }
+
+for(let keys in obj){
+    console.log(obj[keys]);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
