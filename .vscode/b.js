@@ -5,3 +5,6 @@
 // let str="Ziya'
 // console.log(str);
 
+//    Templates Literals
+let fruits='bana\tna';
+console.log(fruits);
