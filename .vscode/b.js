@@ -12,6 +12,17 @@
 // let str="Harry";
 // console.log(str.includes('r'));
 
+let Obj={
+    name:"Mohd Ziya",
+    age:18,
+    DOB:"07-Aug-1992"
+}
+// console.log(Obj["DOB"]);
+for(let keys in Obj){
+    // console.log(keys);
+    console.log(Obj[keys]);
+}
+
 
 
 
