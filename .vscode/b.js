@@ -6,5 +6,32 @@
 // console.log(str);
 
 //    Templates Literals
-let fruits='bana\tna';
-console.log(fruits);
+// let fruits='bana\tna';
+// console.log(fruits);
+
+// let str="Harry";
+// console.log(str.includes('r'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
