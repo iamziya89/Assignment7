@@ -37,11 +37,13 @@
 // let x=sum(20,12);
 // console.log(x)
 
-let str="Mohdziya";
-console.log(str.length);
-for(let i=0;i<str.length;i++){
-    console.log(str[i])
-}
+let str="Mohd Ziya";
+// console.log(str.length);
+// for(let i=0;i<str.length;i++){
+//     console.log(str[i])
+// }
+// console.log(`My name is ${str}`);
+
 
 
 
