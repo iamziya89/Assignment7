@@ -43,7 +43,27 @@ let str="Mohd Ziya";
 //     console.log(str[i])
 // }
 // console.log(`My name is ${str}`);
+// let new_str=str.toLocaleUpperCase();
+// console.log(new_str);
+// let new_str=str.toLowerCase();
+// console.log(new_str);
+// let new_str=str.slice(1,5);
+// let new_str=str.slice(1);
+// console.log(new_str);
+// let new_str=str.replace("Mohd","Anas")
+// console.log(new_str);
 
+
+// let name1="Mohd"
+// let name2="Ziya"
+// let name3=name1.concat(name2," Yes");
+// console.log(name3);
+
+let str1="Mohd Ziya Shameem"
+// console.log(str1);
+// let n_str=str1.trim();
+// console.log(n_str);
+console.log(str1.includes("ziya"));
 
 
 
