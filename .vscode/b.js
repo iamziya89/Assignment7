@@ -59,11 +59,18 @@ let str="Mohd Ziya";
 // let name3=name1.concat(name2," Yes");
 // console.log(name3);
 
-let str1="Mohd Ziya Shameem"
+// let str1="Mohd Ziya Shameem"
 // console.log(str1);
 // let n_str=str1.trim();
 // console.log(n_str);
-console.log(str1.includes("ziya"));
+// console.log(str1.includes("ziya"));
+
+let arr=[1,7,9]
+// let arr=["Harry","Mohd","Ziya"];
+// let new_arr=arr.toString();
+// console.log(typeof new_arr,new_arr);
+let new_arr=arr.join("/")
+console.log(new_arr);
 
 
 
