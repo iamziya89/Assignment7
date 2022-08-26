@@ -65,12 +65,12 @@ let str="Mohd Ziya";
 // console.log(n_str);
 // console.log(str1.includes("ziya"));
 
-let arr=[1,7,9]
-// let arr=["Harry","Mohd","Ziya"];
-// let new_arr=arr.toString();
-// console.log(typeof new_arr,new_arr);
-let new_arr=arr.join("/")
-console.log(new_arr);
+// let arr=[1,7,9]
+// // let arr=["Harry","Mohd","Ziya"];
+// // let new_arr=arr.toString();
+// // console.log(typeof new_arr,new_arr);
+// let new_arr=arr.join("/")
+// console.log(new_arr);
 
 
 
