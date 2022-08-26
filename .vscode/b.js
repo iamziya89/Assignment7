@@ -74,6 +74,14 @@ let str="Mohd Ziya";
 
 
 
+//    Javascripts Practice-05
+
+let arr=[1,2,4,54,65]
+arr.push(45)
+console.log(arr);
+
+
+
 
 
 
