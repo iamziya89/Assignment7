@@ -82,12 +82,19 @@ let str="Mohd Ziya";
 
 let person={
     fname:"Mohd",
-    lname:'Ziya'
+    lname:'Ziya',
+    age:25
 }
-person.lname="Shameem"
-person.age=30,
-delete person.lname;
-console.log(person.height);
+// person.lname="Shameem"
+// person.age=30,
+// delete person.lname;
+// console.log(person.height);
+// console.log('height' in person);
+// console.log('fname' in person);
+
+for(let keys in person){
+    console.log(person[keys]);
+}
 
 
 
