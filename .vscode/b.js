@@ -86,7 +86,8 @@ let person={
 }
 person.lname="Shameem"
 person.age=30,
-console.log(person);
+delete person.lname;
+console.log(person.height);
 
 
 
