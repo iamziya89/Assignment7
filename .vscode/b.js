@@ -80,11 +80,11 @@ let str="Mohd Ziya";
 // arr.push(45)
 // console.log(arr);
 
-let person={
-    fname:"Mohd",
-    lname:'Ziya',
-    age:25
-}
+// let person={
+//     fname:"Mohd",
+//     lname:'Ziya',
+//     age:25
+// }
 // person.lname="Shameem"
 // person.age=30,
 // delete person.lname;
@@ -92,9 +92,57 @@ let person={
 // console.log('height' in person);
 // console.log('fname' in person);
 
-for(let keys in person){
-    console.log(person[keys]);
+// for(let keys in person){
+//     console.log(person[keys]);
+// }
+
+
+//   Method in javascripts
+
+// let person={
+//     fname:"Mohd",
+//     lname:'Ziya',
+//     age:25
+// }
+// person.says=function (){
+//     console.log("My full name is Mohd Ziya");
+// }
+
+// function hi(){
+//     console.log("Mohd Ziya")
+// }
+// person.says=hi;
+// person.says();
+
+
+
+let per={
+    fname:'Mohammad',
+    lname:'Ziya',
+    age:30
+};
+// per.lname="Anas"
+// console.log(per);
+// for(let keys in per){
+//     console.log(keys+" : "+per[keys]);
+// }
+// per.hello=function (){
+//     console.log("Hi Everyone how are you")
+// }
+// per.hello();
+function myFun(){
+    console.log("Mohammad Arbaz");
 }
+per.my=myFun;
+per.my();
+
+
+
+
+
+
+
+
 
 
 
