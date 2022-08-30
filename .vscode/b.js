@@ -119,7 +119,10 @@ let str="Mohd Ziya";
 let per={
     fname:'Mohammad',
     lname:'Ziya',
-    age:30
+    age:30,
+    my:function (){
+        console.log("Teesra tarika")
+    }
 };
 // per.lname="Anas"
 // console.log(per);
@@ -130,10 +133,10 @@ let per={
 //     console.log("Hi Everyone how are you")
 // }
 // per.hello();
-function myFun(){
-    console.log("Mohammad Arbaz");
-}
-per.my=myFun;
+// function myFun(){
+//     console.log("Mohammad Arbaz");
+// }
+// per.my=myFun;
 per.my();
 
 
