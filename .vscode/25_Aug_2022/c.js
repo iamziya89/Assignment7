@@ -1,18 +1,33 @@
-const Obj={
-    fname:'Mohammad',
-    mname:'Ziya',
-    lname:'Shameeem',
-    age:32,
-    // myFun:function (){
-    //     return "Hello Objec how are you"
+let person={
+    fname:"Mohammad",
+    lname:"Ziya",
+    // myFun: function (){
+    //     console.log("Hii Hellow");
+    // }
+    // myFun (){
+    //     console.log("!!!!!Hii Hellow How are you");
     // }
 }
-// Obj.myFun=function (){
-//     console.log("Mokarrabin Ansari");
+// person.sayHellow = function (){
+//     console.log("How the josh")
 // }
-// Obj.myFun();
-function myFun(){
-    console.log("Normal Function");
-}
-Obj.myFun1=myFun;
-Obj.myFun1();
+// person.sayHellow();
+// function myFun(){
+//     console.log("Mahmood Alam");
+// }
+// person.says=myFun;
+// person.says();
+
+let x=new Date(2018,11,13,10,33);
+console.log(x);
+
+
+
+
+
+
+
+
+
+
+
