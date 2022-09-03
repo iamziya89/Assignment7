@@ -14,3 +14,4 @@ function getNames(name1,name2,name3){
 }
 getNames(names[0],names[1],names[2]);
 getNames(...names);
+getNames(names);
