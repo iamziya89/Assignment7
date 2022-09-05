@@ -15,3 +15,10 @@
 // // console.log(p);
 // let p=elm.nextElementSibling
 // console.log(p);
+
+
+// let elm=document.querySelector('#intro');
+// console.log(elm)
+// // let content=elm.innerText;
+// let content=elm.innerHTML;
+// console.log(content);
