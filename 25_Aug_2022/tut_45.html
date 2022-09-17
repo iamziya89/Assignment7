@@ -14,9 +14,18 @@
         <li>Contact Us</li>
     </ul>
     <script>
+        // let elm=document.getElementById("menu");
+        // let clon=elm.cloneNode(true);
+        // document.body.appendChild(clon)
+
         let elm=document.getElementById("menu");
-        let clon=elm.cloneNode(true);
-        document.body.appendChild(clon)
+        let child=elm.firstElementChild.nextElementSibling;
+        console.log(child.innerHTML);
+
+
+
+
+
     </script>
 </body>
 </html>
