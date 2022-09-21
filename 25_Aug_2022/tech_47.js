@@ -23,14 +23,43 @@
 // console.log(elm);
 
 
-let elm=document.getElementById('intro');
+// let elm=document.getElementById('intro');
 
-let html="<h1>This id a paragraph of ziya</h1>"
+// let html="<h1>This id a paragraph of ziya</h1>"
 
 // elm.insertAdjacentHTML("beforebegin",html)
 // elm.insertAdjacentHTML("afterbegin",html)
 // elm.insertAdjacentHTML("beforeend",html)
-elm.insertAdjacentHTML("afterend",html)
+// elm.insertAdjacentHTML("afterend",html)
+
+
+
+
+let elm=document.getElementById('btn');
+console.log(elm);
+elm.setAttribute('class','formed');
+// let val=elm.getAttribute('name');
+// console.log(val);
+// let val=elm.removeAttribute('class');
+// console.log(val)
+
+// let val=elm.hasAttribute('class');
+// console.log(val)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
