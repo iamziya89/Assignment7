@@ -35,16 +35,49 @@
 
 
 
-let elm=document.getElementById('btn');
-console.log(elm);
-elm.setAttribute('class','formed');
-// let val=elm.getAttribute('name');
-// console.log(val);
-// let val=elm.removeAttribute('class');
-// console.log(val)
+// let elm=document.getElementById('btn');
+// console.log(elm);
+// elm.setAttribute('class','formed');
+// // let val=elm.getAttribute('name');
+// // console.log(val);
+// // let val=elm.removeAttribute('class');
+// // console.log(val)
 
-// let val=elm.hasAttribute('class');
-// console.log(val)
+// // let val=elm.hasAttribute('class');
+// // console.log(val)
+
+
+let elm=document.getElementById('btn');
+
+// elm.style.cssText="background-color:red;color:white";
+
+// elm.style.color="red";
+// elm.style.background="yellow"
+
+// elm.setAttribute('style','color:red;background-color:yellow')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
