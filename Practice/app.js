@@ -49,8 +49,16 @@
 //     console.log(i);
 // }
 
+// let str="Mohammad \n            Ziya"
+// console.log(str);
 
 
+// let str=`Mohammad
+//                           Ziya`;
+// console.log(str);
+
+let str=40;
+console.log(`My age is ${2*str} years`);
 
 
 
